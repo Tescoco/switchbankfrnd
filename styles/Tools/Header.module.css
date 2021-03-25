@@ -1,0 +1,117 @@
+.row1 {
+  height: 10%;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  position: fixed;
+  color: white;
+  background-color: #201f28;
+  z-index: 1;
+}
+.row1White {
+  height: 10%;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  position: fixed;
+  background-color: #e5e5e5;
+  color: #201f28;
+  z-index: 1;
+}
+.menu {
+  width: 50%;
+  flex-direction: row;
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 37px;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+}
+.imgMain {
+  width: 250px;
+  height: 85px;
+  padding-left: 40px;
+  display: flex;
+}
+.img {
+  width: 50%;
+  height: 100px;
+  align-items: center;
+  display: flex;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+.menu1:hover {
+  color: #ff7a00;
+}
+.menu2:hover {
+  color: #ff7a00;
+}
+.menu3:hover {
+  color: #ff7a00;
+}
+.menu1 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff7a00;
+}
+.menu1White {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+.menu2 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.menu2White {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff7a00;
+}
+.menu3 {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HIWactive {
+  color: red;
+}
+.goBackTopWhite {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 89vh;
+  position: absolute;
+  background-color: #f39e40;
+  left: 95%;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goBackTop {
+  display: none;
+}
+.goBackTopWhite:hover {
+  cursor: pointer;
+}
+.vector3 {
+  width: 20px;
+}

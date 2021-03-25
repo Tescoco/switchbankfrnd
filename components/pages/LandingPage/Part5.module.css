@@ -1,0 +1,105 @@
+.container {
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+.half1 {
+  height: 10%;
+  width: 100%;
+}
+.half2 {
+  display: flex;
+  width: 100%;
+  height: 75%;
+  justify-content: center;
+  align-items: center;
+}
+.half2Main {
+  width: 90%;
+  height: 100%;
+  display: flex;
+}
+.half2MainInner1 {
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.half2MainInner2 {
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.half2MainInner2Main {
+  width: 80%;
+  height: 60%;
+}
+.half2MainInner2Socials {
+  display: grid;
+}
+.group14Img {
+  width: 60%;
+  height: 70%;
+}
+.imgContainer {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.half2MainInner2Content {
+  font-size: 46px;
+  width: 100%;
+  font-weight: 700;
+}
+.half2MainInner2Socials {
+  padding-top: 30px;
+}
+.socialContents:hover {
+  cursor: pointer;
+}
+.socialHeader {
+  color: #ff7a00;
+  font-weight: 700;
+}
+.socialContents {
+  display: flex;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+.socialContent1 {
+  padding-right: 15px;
+}
+.socialContent2 {
+  padding-right: 15px;
+}
+.socialContent3 {
+  padding-right: 15px;
+}
+.socialContent1:hover {
+  color: #ff7a00;
+}
+.socialContent2:hover {
+  color: #ff7a00;
+}
+.socialContent3:hover {
+  color: #ff7a00;
+}
+.socialContent4:hover {
+  color: #ff7a00;
+}
+.half3 {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+}
+.recImg {
+  width: 100%;
+  height: 100%;
+}
+.rectangle9 {
+  background-color: #e5e5e5;
+}

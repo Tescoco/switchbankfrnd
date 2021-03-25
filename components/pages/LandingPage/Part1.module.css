@@ -1,0 +1,207 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #201f28;
+}
+.row1 {
+  height: 10%;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+.row2 {
+  height: 60%;
+  width: 100%;
+  display: flex;
+}
+.row3 {
+  height: 15%;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+.row4 {
+  height: 15%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.row2Half1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.row2Half2 {
+  height: 100%;
+  width: 50%;
+  color: white;
+}
+.img1Main {
+  height: 90%;
+}
+.row2Half21 {
+  height: 20%;
+  width: 60%;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  margin-top: 19%;
+  white-space: nowrap;
+}
+.row2Half21Content1 {
+  font-weight: 400;
+}
+.row2Half22 {
+  height: 20%;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  font-weight: 800;
+  font-size: 30px;
+  color: #ff7a00;
+}
+.row3Main {
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.row3MainInner {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 70px;
+  border-radius: 15px;
+  display: flex;
+}
+.row3MainContent1 {
+  height: 100%;
+  width: 16.67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row3MainContent2 {
+  height: 100%;
+  width: 16.67%;
+  display: flex;
+  justify-content: flex-end;
+}
+.row3MainContent3 {
+  height: 100%;
+  width: 21.67%;
+  display: flex;
+  justify-content: flex-end;
+}
+.row3MainContent4 {
+  height: 130%;
+  width: 11.67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.row3MainContent5 {
+  height: 100%;
+  width: 16.67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row3MainContent6 {
+  height: 100%;
+  width: 16.67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row3MainContent1SwitchFrom {
+  background-color: #bbbbbb;
+  height: 45px;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 11px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.row3MainContent6SwitchFrom {
+  background-color: #ff7a00;
+  height: 45px;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 11px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.row3MainContent3Inner {
+  height: 100%;
+  width: 90%;
+  padding-top: 7px;
+  font-size: 10px;
+}
+.row3MainContent2Inner {
+  height: 100%;
+  width: 100%;
+  padding-top: 23px;
+  font-size: 10px;
+}
+.inputLabel {
+  padding-top: 20px;
+}
+.row3MainContent4Inner {
+  height: 100%;
+  width: 72%;
+  display: flex;
+  justify-content: center;
+  background-color: #ff7a00;
+  align-items: center;
+  align-self: center;
+  border-radius: 100px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
+}
+.row4Inner {
+  height: 55px;
+  width: 206px;
+  left: 577px;
+  border-radius: 20px;
+  background-color: #ff7a00;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 45px;
+  color: white;
+}
+.row4Inner:hover {
+  cursor: pointer;
+}
+.row3MainContent4InnerArrow {
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.vectorArrow {
+  width: 100%;
+  height: 100%;
+}
+.row3MainContent4InnerArrowInnerImg {
+  width: 100%;
+  height: 50%;
+}
+.row3MainContent4InnerArrowInner {
+  width: 50%;
+  height: 100%;
+}

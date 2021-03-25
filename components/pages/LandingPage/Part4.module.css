@@ -1,0 +1,77 @@
+.container {
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+.half1 {
+  height: 10%;
+  width: 100%;
+}
+.half2 {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.half2Main {
+  width: 80%;
+  height: 90%;
+  display: flex;
+}
+.half2Inner1 {
+  height: 100%;
+  width: 50%;
+}
+.half2Inner2 {
+  height: 100%;
+  width: 50%;
+}
+.half2Inner1Desc {
+  width: 70%;
+  font-size: 30px;
+  color: #ff7a00;
+}
+.half2Inner1Content {
+  width: 80%;
+  font-size: 16px;
+}
+.half2Inner2Main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.half2MainHalf1 {
+  width: 10%;
+  height: 100%;
+}
+.half2Inner2Number {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 900;
+}
+.half2MainHalf2 {
+  width: 90%;
+  height: 100%;
+}
+.half2Inner2DownIcon {
+  display: flex;
+  justify-content: center;
+  height: 60%;
+  padding-top: 90px;
+}
+.arrowImg {
+  width: 100%;
+  height: 65%;
+  display: flex;
+}
+.group12Img {
+  width: 100%;
+  height: 100%;
+}
+.arrowImg:hover {
+  cursor: pointer;
+}
