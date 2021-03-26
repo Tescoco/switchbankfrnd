@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
   '& .MuiInput-underline:after': {
     borderBottomColor: '#ff7a00',
   },
+  width: "200px"
 }
 }));
 
@@ -126,11 +127,66 @@ export default function Part1() {
                </div>
               </div>
           </div>
+          <div className={styles.row3Mobile}>
+              <div className={styles.row3Main}>
+               <div className={styles.row3MainInner}>
+                <div className={styles.row3MainInnerMain}>
+                 <div className={styles.row3MainContent1}>
+                     <p className={styles.row3MainContent1SwitchFrom}>Switch From:</p>
+                 </div>
+                  <div className={styles.row3MainContent2}>
+                   <div className={styles.row3MainContent2Inner}>
+                    <Select
+                     className={classes.select}
+                     fullWidth={true}
+                     labelId="selectBankId"
+                     id="selectBank"
+                     value={bank1}
+                     placeholder="bank"
+                     onChange={(event)=>firstBankHandler1(event)}
+                    >
+                    <MenuItem style={{display:"none"}} value={"Bank"}>Bank</MenuItem>
+                    <MenuItem value={"Access"}>Access Bank</MenuItem>
+                    <MenuItem value={"First"}>First Bank</MenuItem>
+                    <MenuItem value={"Gtb"}>GT Bank</MenuItem>
+                    <MenuItem value={"Uba"}>UBA</MenuItem>
+                   </Select>
+                  </div>
+                 </div>
+                 <div className={styles.row3MainContent3}>
+                    <div className={styles.row3MainContent3Inner}>
+                     <TextField className={classes.textField} inputProps={{ maxLength: 10,width:"120px" }} value={accountNumber} onChange={checkandUpadateAcctNumber} id="standard-basic" label="Account Number" />
+                    </div>
+                  </div>
+                  <div className={styles.row3MainContent6}>
+                    <p className={styles.row3MainContent6SwitchFrom}>Switch To:</p>
+                   </div>
+                  <div className={styles.row3MainContent5}>
+                  <div className={styles.row3MainContent2Inner}>
+                   <Select
+                     className={classes.select}
+                     fullWidth={true}
+                     labelId="selectBankId"
+                     id="selectBank"
+                     value={bank2}
+                     placeholder="bank"
+                     onChange={(event)=>firstBankHandler2(event)}
+                    >
+                    <MenuItem style={{display:"none"}} value={"Bank"}>Bank</MenuItem>
+                    <MenuItem value={"Kuda"}>Kuda MFB</MenuItem>
+                   </Select>
+                    </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+          </div>
           <div className={styles.row4}>
             <div className={styles.row4Inner}>
               SWITCH
             </div>
           </div>
+          
         </div>
   )
 }

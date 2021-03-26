@@ -18,7 +18,7 @@ export default function Home() {
         <Part2 />
         <Part3 />
         <Part4 />
-        <Part5 />
+       <Part5 />  {/*  */}
       </div>
   )
 }

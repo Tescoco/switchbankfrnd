@@ -4,10 +4,10 @@ import styles from "./Part5.module.css"
 function Part5() {
     return (
         <div id="section4" className={styles.container}>
-            <div className={styles.half1}>
+             <div className={styles.half1}>
                   
              </div>
-             <div className={styles.half2}>
+          <div className={styles.half2}>
                  <div className={styles.half2Main}>
                     <div className={styles.half2MainInner1}>
                         <div className={styles.imgContainer}>

@@ -103,3 +103,11 @@
 .rectangle9 {
   background-color: #e5e5e5;
 }
+@media screen and (max-width: 1024px) {
+  .half2MainInner2Content {
+    font-size: 10px;
+  }
+  .half2MainInner2 {
+    font-size: 3px;
+  }
+}
