@@ -1,5 +1,5 @@
 .container {
-  height: 100vh;
+  height: 80vh;
   background-color: #e5e5e5;
 }
 .half1 {
@@ -27,10 +27,9 @@
   width: 50%;
 }
 .half2Inner1Desc {
-  width: 50%;
+  width: 70%;
   font-size: 30px;
   color: #ff7a00;
-  white-space: nowrap;
 }
 .half2Inner1Content {
   width: 80%;
@@ -55,7 +54,7 @@
   font-weight: 900;
 }
 .half2MainHalf2 {
-  width: 90%;
+  width: 100%;
   height: 100%;
 }
 .half2Inner2DownIcon {
@@ -63,6 +62,9 @@
   justify-content: center;
   height: 60%;
   padding-top: 90px;
+}
+.arrowImg:hover {
+  cursor: pointer;
 }
 .arrowImg {
   width: 100%;
@@ -73,6 +75,43 @@
   width: 100%;
   height: 100%;
 }
-.arrowImg:hover {
-  cursor: pointer;
+@media screen and (max-width: 1024px) {
+  .half2Main {
+    flex-direction: column-reverse;
+  }
+  .half2Inner1 {
+    width: 100%;
+    height: 50%;
+  }
+  .half2Inner2 {
+    width: 100%;
+    height: 50%;
+  }
+  .half1 {
+    height: 50px;
+    width: 100%;
+  }
+  .half2MainHalf1 {
+    display: none;
+  }
+  .half2Inner1Desc {
+    font-size: 18px;
+    width: 100%;
+  }
+  .half2MainHalf2 {
+    width: 100%;
+    height: 100%;
+  }
+  .half2Inner2Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .half2Inner1Content {
+    width: 100%;
+  }
+
+  .container {
+    height: fit-content;
+  }
 }

@@ -90,9 +90,6 @@
   align-items: center;
   justify-content: center;
 }
-.HIWactive {
-  color: red;
-}
 .goBackTopWhite {
   width: 40px;
   height: 40px;
@@ -123,5 +120,9 @@
     padding-left: 10px;
     width: 220px;
     height: 85px;
+  }
+  .goBackTopWhite {
+    left: 85%;
+    top: 84vh;
   }
 }
