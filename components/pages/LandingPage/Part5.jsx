@@ -4,9 +4,6 @@ import styles from "./Part5.module.css"
 function Part5() {
     return (
         <div id="section4" className={styles.container}>
-             <div className={styles.half1}>
-                  
-             </div>
           <div className={styles.half2}>
                  <div className={styles.half2Main}>
                     <div className={styles.half2MainInner1}>
@@ -22,6 +19,12 @@ function Part5() {
                            <br/>
                            banking
                            <br />
+                            freedom.
+                         </div>
+                         <div className={styles.half2MainInner2ContentMobile}>
+                           We are here to 
+                           give you true 
+                           banking
                             freedom.
                          </div>
                          <div className={styles.half2MainInner2Socials}>
@@ -61,7 +64,31 @@ function Part5() {
                <g>
                  <text x="70%" y="70%" fill="black">© 2021. SwitchBank NG - All Rights Reserved.</text>
                </g>
-             </svg>
+             </svg> 
+             </div>
+             <div className={styles.half3Mobile}>
+              <div className={styles.half3MobileInner}>
+               <div className={styles.half3MobileInnerHalf1}>
+                  <div className={styles.half3MobileInnerHalf11}>
+                    <p> <span style={{fontWeight:500}}>Email: </span> hello@switchbank.ng</p>
+                  </div>   
+                  <div className={styles.half3MobileInnerHalf12}>
+                  <p> <span style={{fontWeight:500}}>Tel: </span> 234 8-- --- ----</p>
+                  </div>   
+                  <div className={styles.half3MobileInnerHalf13}>
+
+                      <div className={styles.half3MobileInnerHalf13Inner2}>
+                        About
+                      </div>
+                  </div>   
+                 </div>
+               <div className={styles.half3MobileInnerHalf2}>
+                    7, Internet Ave. Figma, Linux State
+                 </div>
+               <div className={styles.half3MobileInnerHalf3}>
+                     © 2021. SwitchBank NG - All Rights Reserved.
+                 </div>
+              </div>
              </div>
         </div>
     )
